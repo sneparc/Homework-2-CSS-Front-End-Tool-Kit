@@ -1,0 +1,66 @@
+body {
+  background-color: red; }
+
+.button-style-one {
+  background-color: blue;
+  border: 5pt solid black;
+  text-transform: uppercase;
+  color: white;
+  width: 100%;
+  line-height: 5px;
+  padding-top: 5px;
+  font-size: 20px;
+  font-family: "Helvetica"; }
+
+ul li {
+  display: inline;
+  list-style-type: none;
+  width: 25%;
+  margin: 30px;
+  font-size: 20px;
+  font-family: "Helvetica"; }
+ul a {
+  width: 25%;
+  font-size: 20px;
+  font-family: "Helvetica"; }
+
+.text {
+  font-family: "Helvetica";
+  color: blue;
+  text-transform: lowercase;
+  font-size: 20px; }
+
+.fs-12 {
+  font-size: 12pt; }
+
+.fs-24 {
+  font-size: 24pt; }
+
+.fs-36 {
+  font-size: 36pt; }
+
+.fs-48 {
+  font-size: 48pt; }
+
+.fs-60 {
+  font-size: 60pt; }
+
+.fs-72 {
+  font-size: 72pt; }
+
+.fs-84 {
+  font-size: 84pt; }
+
+.fs-96 {
+  font-size: 96pt; }
+
+.fs-108 {
+  font-size: 108pt; }
+
+.fs-120 {
+  font-size: 120pt; }
+
+h1 {
+  font-family: "Helvetica"; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,61 @@
+@import '../bourbon/bourbon';
+
+$font20: 20px;
+$defaultfont:"Helvetica";
+body{
+	background-color:red;
+}
+
+%button{
+	background-color: blue;
+	border: 5pt solid black;
+	text-transform: uppercase;
+	color:white;
+	width: 100%;
+	line-height: 5px;
+	padding-top: 5px;
+	font-size: $font20;
+	font-family: $defaultfont;
+
+
+}
+
+.button-style-one{
+	@extend %button;
+}
+
+ul{
+	li{
+		display: inline;
+		list-style-type: none;
+		width: 25%;
+		margin: 30px;
+		font-size: $font20;
+		font-family: $defaultfont;
+	}
+	a{
+		width: 25%;
+		font-size: $font20;
+		font-family: $defaultfont;
+	}
+}
+
+%text{
+	font-family: $defaultfont;
+	color: blue;
+	text-transform: lowercase;
+	font-size: $font20;
+
+}
+
+.text{
+	@extend %text;
+}
+
+@for $i from 1 through 10{
+    .fs-#{$i*12} {font-size: 12pt *$i;}
+}
+
+h1{
+	font-family: $defaultfont;
+}
